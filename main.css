@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.navBar {
+	height: 50px;
+}
+
+nav {
+	display: block;
+}
+
+.navBar  nav{
+	float: right;
+	margin: 7px 25px;
+}
+
+#center {
+	text-align: center;
+}
+
+.clear {
+	clear:both;
+}
+
+#logo{
+	padding-top: 120px;
+	height:  100px;
+}
+
+#searchVoice img {
+	height: 20px;
+}
+
+#searchDiv {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#searchVoice {
+	background:url(images/microphone.png) no-repeat center;
+	background-size: 14px 19px;
+	cursor: pointer;
+	display: inline-block;
+	height: 24px;
+	width: 17px;
+	position: relative;
+	top: 5px;
+	right: 25px;
+}
+
+#inputDiv {
+	display: inline;
+}
+
+#searchText {
+	width: 475px;
+	height: 30px;
+	font-family: arial, sans-serif;
+	font-size: 18px;
+}
+
+.navBar nav button {
+	padding: 0px 12px;
+	color: white;
+	border: 1px darkblue;
+	line-height: 28px;
+	font-size: 9.5pt;
+	border-radius: 2px;
+	color: white;
+	background-image: -moz-linear-gradient(top left, #4084F9 0%, #4585F1 100%);
+    background-image: -o-linear-gradient(top left, #4084F9 0%, #4585F1 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #4585F1), color-stop(1, #0097DE));
+	background-image: -webkit-linear-gradient(top left, #4084F9 0%, #4585F1 100%);
+}
+
+.navBar nav a {
+	margin: 3px 6px;
+	color: #404040;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+
+.navBar nav img {
+	margin: 0 1px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+}
+
+#searchButton {
+	margin-top: 20px;
+}
+
+.googleBtn {
+	background: -moz-linear-gradient(center top , #f5f5f5, #f1f1f1) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #444 !important;
+    font-size: 11px;
+    height: 30px; 
+    font-weight: bold;
+}
+
+.googleBtn:hover {
+	border-color: #c6c6c6;
+}
+
+#searchButton .googleBtn {
+	margin: 10px 10px;
+}
+
+.textButton {
+	color: #444 !important;
+    font-size: 11px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	background-color: #f2f2f2;
+	font-size: small;
+	font-family: arial, sans-serif;
+	width: 100%;
+}
+
+.minWidth {
+	min-width: 980px;
+}
+
+#leftFooter {
+	float: left;
+	margin: 10px;
+	display: inline-block;
+}
+
+#rightFooter{
+	margin: 10px;
+	display:inline-block;
+	float: right;
+}
+
+footer #leftFooter>span {
+	margin-left: 30px;
+}
+
+footer #rightFooter>span {
+	margin-right: 30px;
+}
+
+footer div span a {
+	color: #777;
+	text-decoration: none;
+}
+
+footer div span a:hover {
+	text-decoration: underline;
+}
