@@ -161,7 +161,8 @@ nav {
 }
 
 #footer {
-	position: absolute;
+	display: block;
+	position: fixed;
 	bottom: 0;
 	height: 40px;
 	background-color: #f2f2f2;
@@ -174,15 +175,17 @@ nav {
 	min-width: 980px;
 }
 
+.footerMinWidth {
+	min-width: 500px;
+}
+
 #leftFooter {
 	float: left;
 	margin: 10px;
-	display: inline-block;
 }
 
 #rightFooter{
 	margin: 10px;
-	display:inline-block;
 	float: right;
 }
 
